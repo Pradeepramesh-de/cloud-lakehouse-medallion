@@ -1,0 +1,10 @@
+{
+  "name": "lakehouse",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
